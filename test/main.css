@@ -1,0 +1,18 @@
+.main {
+    color: red;
+    color: blue; /* Duplicate */
+    margin: 10px;
+    margin: 20px; /* Duplicate */
+    padding: 5px;
+    margin: 0;
+    background: #fff;
+}
+.section {
+    color: red;
+    color: blue; /* Duplicate */
+    margin: 10px;
+    margin: 20px; /* Duplicate */
+    padding: 5px;
+    margin: 0;
+    background: #fff;
+}

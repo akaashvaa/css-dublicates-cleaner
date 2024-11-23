@@ -1,0 +1,45 @@
+{
+  "name": "css-cleaner",
+  "version": "1.0.0",
+  "description": "A CLI tool to remove duplicate CSS/SCSS properties, keeping the last occurrence.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "css-cleaner": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js src -r",
+    "start:fix": "node index.js src -r --fix",
+    "test": "npm run test:log && npm run test:fix",
+    "test:log": "node index.js test -r",
+    "test:fix": "node index.js test -r --fix",
+    "dev": "node index.js test -r",
+    "build": "npm pack",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "cleaner",
+    "linter",
+    "duplicate",
+    "properties"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "glob": "^11.0.0",
+    "postcss": "^8.4.49",
+    "postcss-scss": "^4.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akaashvaa/css-dublicates-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akaashvaa/css-dublicates-cleaner/issues"
+  },
+  "homepage": "https://github.com/akaashvaa/css-dublicates-cleaner#readme"
+}

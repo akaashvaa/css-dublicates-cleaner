@@ -1,0 +1,5 @@
+.button {
+    color: blue; /* Duplicate */
+    margin: 20px; /* Duplicate */
+    padding: 5px;
+}
