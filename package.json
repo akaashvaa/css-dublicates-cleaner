@@ -1,6 +1,6 @@
 {
   "name": "@aakashvaa/css-cleaner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool to remove duplicate CSS/SCSS properties, keeping the last occurrence.",
   "type": "module",
   "main": "index.js",
