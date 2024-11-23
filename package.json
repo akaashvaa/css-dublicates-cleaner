@@ -15,7 +15,7 @@
     "test:fix": "node index.js test -r --fix",
     "dev": "node index.js test -r",
     "build": "npm pack",
-    "publish": "npm publish --access public"
+    "release": "npm version patch && npm publish --access public"
   },
   "keywords": [
     "css",

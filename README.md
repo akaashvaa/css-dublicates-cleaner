@@ -5,10 +5,8 @@ A CLI tool to clean duplicate CSS/SCSS properties, keeping the last occurrence.
 ## Installation
 
 ```bash
-npm install --save-dev css-cleaner
+npm install --save-dev @aakashvaa/css-cleaner
 ```
-
-
 ---
 
 ### Project setup
