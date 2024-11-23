@@ -11,7 +11,7 @@ import postcssScss from "postcss-scss";
 const program = new Command();
 
 program
-  .version("1.0.0")
+  .version("1.0.1")
   .description(
     "CSS Cleaner Tool - Remove duplicate properties from CSS/SCSS files, keeping the last occurrence.",
   )

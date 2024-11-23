@@ -5,8 +5,10 @@ A CLI tool to clean duplicate CSS/SCSS properties, keeping the last occurrence.
 ## Installation
 
 ```bash
-npm install css-cleaner
+npm install --save-dev css-cleaner
 ```
+
+
 ---
 
 ### Project setup
@@ -20,7 +22,16 @@ npm install css-cleaner
 ```
  ## You can optimise the cleaning process by giving the exact path of styles like :  src/styles
 - src => It's the relative path from the project root where the css-cleaner script will run.
+### Without Installing
+```
+{
+  "scripts": {
+    "clean": "npx @aakashvaa/css-cleaner src --recursive",
+    "clean:fix": "npx @aakashvaa/css-cleaner src --recursive --fix"
+  }
+}
 
+```
 
 ### **Using npm Scripts**
 
